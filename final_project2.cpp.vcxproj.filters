@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{2d9b5541-e342-4ed4-b768-2350723e4c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{2efad28b-97cc-405e-a67b-a3e50e4b6162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{2255ba40-ef40-4601-906e-db1b431ba045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
