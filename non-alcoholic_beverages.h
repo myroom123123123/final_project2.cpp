@@ -74,7 +74,7 @@ public:
 	void print_non_alcoholic_beverages() {
 		for (int i = 0; i < _non_alcoholic_beverages.size(); i++) {
 			cout << "Name: " << _non_alcoholic_beverages[i].get_name() << endl;
-			cout << "Brand: " << _non_alcoholic_beverages[i].get_brand() << endl;
+			cout << "Brand: " << _non_alcoholic_beverages[i].get_brand() << endl;    
 			cout << "Price: " << _non_alcoholic_beverages[i].get_price() << endl;
 			cout << "Stock Quantity: " << _non_alcoholic_beverages[i].get_stock_quantity() << endl;
 			cout << "Expiration Date: " << _non_alcoholic_beverages[i].get_expiration_date() << endl;
