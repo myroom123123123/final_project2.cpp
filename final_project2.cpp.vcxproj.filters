@@ -10,10 +10,60 @@
     <Filter Include="lib">
       <UniqueIdentifier>{2255ba40-ef40-4601-906e-db1b431ba045}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain\products">
+      <UniqueIdentifier>{08b84b38-defd-4430-b8dd-fc277424a365}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib.h">
       <Filter>lib</Filter>
     </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="alcoholic_beverages.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="bakery.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="fish_products.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="frozen_foods.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="fruits.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="groceries.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="meat_products.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="milk_products.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="non-alcoholic_beverages.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="pets_foods.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="productsmanagment.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="tea_and_coffee.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+    <ClInclude Include="vegetables.h">
+      <Filter>domain\products</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

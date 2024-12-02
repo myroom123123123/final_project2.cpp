@@ -127,7 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="alcoholic_beverages.h" />
+    <ClInclude Include="bakery.h" />
+    <ClInclude Include="domain.h" />
+    <ClInclude Include="fish_products.h" />
+    <ClInclude Include="frozen_foods.h" />
+    <ClInclude Include="fruits.h" />
+    <ClInclude Include="groceries.h" />
     <ClInclude Include="lib.h" />
+    <ClInclude Include="meat_products.h" />
+    <ClInclude Include="milk_products.h" />
+    <ClInclude Include="non-alcoholic_beverages.h" />
+    <ClInclude Include="pets_foods.h" />
+    <ClInclude Include="productsmanagment.h" />
+    <ClInclude Include="tea_and_coffee.h" />
+    <ClInclude Include="vegetables.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
